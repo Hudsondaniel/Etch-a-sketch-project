@@ -4,15 +4,36 @@
     font-family: 'Pangolin', cursive;
 }
 
-h1{
-   
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-
-};
-
-.selectSec{
+h3{
     display: flex;
     justify-content: center;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+};
+
+div{
+    display: flex;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.selectSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    font-weight: bolder;
+};
+
+
+

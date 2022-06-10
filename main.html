@@ -9,20 +9,33 @@
 </head>
 <body>
     <h1>ETCH-A-SKETCH</h1> 
+
+    <div class="inputBox">
+
+        <label for="grids"> Enter number of Grids:</label>
+        <input type="number" id="gridsize" name="gridsize" placeholder="Ex: 23, 81 etc">
     
+    </div>
+      
     <div class="selectSec">
-      <div class="black"></div>
-      <input type="radio" id ="Bcolour" name="Bcolour">
-      <label for="Bcolour">Black</label>
-      <input type="radio" id ="Rcolour" name="Rcolour">
-      <label for="Rcolour">Red</label>
-      <input type="radio" id ="Gcolour" name="Gcolour">
-      <label for="Gcolour">Green</label>
-      <input type="radio" id ="Randomcolour" name="Randomcolour">
-      <label for="Randomcolour">Random</label>
-      <input type="radio" id ="eraser" name="eraser">
-      <label for="eraser">Eraser</label>
-      <button>Clear</button>
+
+        <div class="black"> <input type="radio" id ="Bcolour" name="Bcolour">
+            <label for="Bcolour">Black</label></div>
+        
+        <div class="red"><input type="radio" id ="Rcolour" name="Rcolour">
+            <label for="Rcolour">Red</label></div>
+       
+        <div class="green"><input type="radio" id ="Gcolour" name="Gcolour">
+            <label for="Gcolour">Green</label></div>
+        
+        <div class="random"><input type="radio" id ="Randomcolour" name="Randomcolour">
+            <label for="Randomcolour">Random</label></div>
+          
+        <div class="eraser"><input type="radio" id ="eraser" name="eraser">
+            <label for="eraser">Eraser</label> </div>
+        
+        <div class="clear"><button>Clear</button></div>
+        
 
     </div>
 </body>
