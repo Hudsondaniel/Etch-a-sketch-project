@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+    font-family: 'Pangolin', cursive;
+}
+
+h1{
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+};
+
+.selectSec{
+    display: flex;
+    justify-content: center;
+}
